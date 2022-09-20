@@ -1,4 +1,4 @@
-function Reviews() {
+function Reviews(props) {
   return(
     <div className="rewievs">
         <h3>Reviews</h3>
