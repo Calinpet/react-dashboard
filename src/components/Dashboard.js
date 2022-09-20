@@ -11,7 +11,7 @@ function Dashboard(){
          <Reviews/>
          <Rating/>
          <Analysis/>
-         <Visitors number="728" />
+         <Visitors number="821" />
          <Sidebar/>
        </div>
     </div>

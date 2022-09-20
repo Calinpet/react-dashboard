@@ -6,7 +6,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
   background-color: rgb(185, 228, 244);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .sidebar{
@@ -37,7 +37,7 @@ grid-row: 1/1;
 }
 
  .rewievs, .rating, .analysis, .visitors {
-  background-color: gainsboro;
+  background-color: rgb(203, 198, 198);
   margin: 5px;
 }
 
