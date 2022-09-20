@@ -1,5 +1,6 @@
 import Reviews from "./Reviews";
 import Rating  from "./Rating";
+import Analysis from "./Analysis";
 
 function Dashboard(){
   return(
@@ -7,6 +8,7 @@ function Dashboard(){
       <div className="dashboard">
          <Reviews/>
          <Rating/>
+         <Analysis/>
       </div>
 
       </div>
