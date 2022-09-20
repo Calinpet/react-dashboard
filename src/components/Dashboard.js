@@ -1,6 +1,7 @@
 import Reviews from "./Reviews";
 import Rating  from "./Rating";
 import Analysis from "./Analysis";
+import Visitors from "./Visitors"
 import Sidebar from "./Sidebar";
 
 function Dashboard(){
@@ -10,10 +11,10 @@ function Dashboard(){
          <Reviews/>
          <Rating/>
          <Analysis/>
+         <Visitors number="728" />
          <Sidebar/>
-      </div>
-
-      </div>
+       </div>
+    </div>
   )
 }
 

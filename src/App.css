@@ -1,38 +1,58 @@
-.App {
+/* setting up a flex grid to define rows and colums*/
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  background-color: rgb(185, 228, 244);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+  background-color: rgb(125, 153, 230);
+  grid-column: 1/1;
+  grid-row: 1/4;
+  margin: 5px;
+}
+
+.reviews{
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+.rating {
+  grid-column: 3/3;
+  grid-row: 1/1;
+}
+
+.analysis {
+grid-column: 4/5;
+grid-row: 1/1;
+}
+
+.visitors {
+  grid-column: 2/5;
+  grid-row: 2/4;
+}
+
+ .rewievs, .rating, .analysis, .visitors {
+  background-color: gainsboro;
+  margin: 5px;
+}
+
+.graphic {
+  height: 75%;
+  width: 85%;
+  margin: auto;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZA-kPOML2cC3tXA8hos1X_z9h-Ma3ucbEhDjjYterjfNuVJZZqn0Hokekv7cnmRROtNA&usqp=CAU");
+  background-size: cover;
+}
+
+.data, .sidebar {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+  margin-top: 100%;
 }
